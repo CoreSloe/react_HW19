@@ -1,0 +1,51 @@
+.post {
+  border: 1px solid #fff;
+  box-shadow: 17px 26px 34px 3px #cbcbcb;
+  padding: 10px;
+  margin: 10px;
+  max-width: 1150px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.home-text {
+  font-size: 35px;
+  color: white;
+  text-shadow: 16px 6px 4px rgba(0, 0, 0, 0.7);
+}
+
+.contracts-list {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.search-bar {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.search-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 10px 5px 25px #7cc3ff;
+  width: 200px;
+}
+
+.gender-filters {
+  margin-bottom: 10px;
+}
+
+.contract {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contract p {
+  margin: 5px 0;
+}
+
+label {
+  margin-right: 10px;
+}

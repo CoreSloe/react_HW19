@@ -1,0 +1,63 @@
+body {
+  font-family: "Abril Fatface", cursive;
+  /* background-image: url(https://images.pexels.com/photos/1519088/pexels-photo-1519088.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contract {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #7fc5ff;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  box-shadow: 10px 5px 15px #7cc3ff;
+  height: 40px;
+  background-color: rgb(68 68 68 / 85%);
+  color: white;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.contact-icons {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  gap: 20px;
+}
+
+.contact-text {
+  margin: 0;
+}
+
+.phone-number {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Вирівнювання між елементами */
+}
+
+.phone-icon {
+  margin-right: 5px;
+}
+
+.filter-bar {
+  text-align: center;
+  margin-top: 20px;
+  color: #7cc3ff;
+}
